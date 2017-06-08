@@ -1,0 +1,173 @@
+.navbar{
+	padding:1em 1em 2em 3em;
+}
+.navbar-toggler-icon{
+	color:white !important;
+}
+#brand{
+	font-family: 'Open Sans', sans-serif;
+	color:#3E4551;
+	font-size:180%;
+	font-weight:550;
+}
+#navAlt{
+	text-align:right;
+}
+ li{
+  font-family:'Roboto', sans-serif;
+	 font-size:110%;
+	 font-weight:bold;
+}
+#links{
+	color:#2E2E2E;
+	border-radius:2%;
+}
+#links:hover{
+	background-color:#eceff1;
+}
+.hero-image{
+	background-image:url('https://i.imgpile.com/nuUlvW.jpg');
+	height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+body, html {
+    height: 142%;
+    margin: 0;
+}
+.center-box{
+	display:flex;
+   align-items: center;
+	justify-content:center;
+	height: 100%;
+}
+.center-heading{
+	color:#3E4551;
+	padding-top:2%;
+	padding-left:2%;
+	padding-bottom:2%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+}
+.center-text{
+	color:#37474F;
+	padding-left:2%;
+	padding-bottom:.5%;
+	padding-top:2%;
+	font-family:'Roboto', sans-serif;
+	font-size:130%;
+}
+.name-container{
+	
+}
+ hr {
+    height: 1px;
+    color: white;
+    background-color: white;
+    border: 0;
+    padding: ; 
+    margin: 9px 0 0 0;
+}
+.email{
+	color:#3F729B;
+	padding-left:2%;
+	padding-bottom:2%;
+	font-family:'Roboto', sans-serif;
+}
+.br{
+	margin-bottom:5%;
+}
+.portfolio{
+	background-image:url('https://i.imgpile.com/nuixpN.png');
+	padding-bottom:4%;
+}
+#port-text{
+	padding-left:5%;
+	padding-top:8%;
+	font-family: 'Open Sans', sans-serif;
+	color:#37474f;
+}
+#port-subtext{
+	padding-left:5%;
+	padding-top:1%;
+	font-family:'Roboto', sans-serif;
+	color:white;
+}
+#jumbo{
+		padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom:0;
+	background-color:transparent;
+}
+.lead{
+	margin-bottom:1%;
+}
+.carousel-item > img {
+    margin: 0 auto;
+}
+.hr-1{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(62,69,81,.4), rgba(46, 46, 46, 0.75), rgba(62, 69, 81, .4));
+
+}
+.buttonstyle{
+	background-color:#d32f2f;
+	border-radius:3px;
+}
+#resume-text{
+	margin-top:1%;
+	margin-bottom:1%;
+	color:white;
+}
+@media (min-width: 992px) {
+	.center-heading{
+		font-size:400%;
+	}
+	
+}
+@media (max-width: 767px) { 
+	#port-text{
+		font-size:200%;
+	}
+	#email-text{
+		font-size:95%;
+	}
+}
+#contact-cont{
+	background-image:url('https://i.imgpile.com/nuiPQ1.jpg');
+	height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contact-card{
+	width:35%;
+	positon:absolute;
+	top:20%;
+	left:50%;
+	
+}
+footer{
+	background-color:#2E2E2E;
+}
+#footer-text{
+	color:white;
+	font-family:'Roboto', sans-serif;
+	font-size:70%;
+}
+.fa-linkedin-square:hover{
+	color:#0077B5;
+}
+.fa-free-code-camp:hover{
+	color:darkgreen;
+}
+.fa-github:hover{
+	color:black;
+}
+
+
